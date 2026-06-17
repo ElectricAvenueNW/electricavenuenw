@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Electric Avenue North West | Domestic, Commercial & Industrial Electricians</title>
+
+<meta name="description" content="Electric Avenue North West provides domestic, commercial and industrial electrical services across Lancashire and Merseyside. Specialists in EICRs, inspection, testing and electrical installations.">
+
+<meta name="keywords" content="Electrician Ormskirk, Electrician Southport, Electrician Skelmersdale, Commercial Electrician Lancashire, Industrial Electrician Lancashire, EICR Ormskirk">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--red:#E10600;
+--dark:#1f1f1f;
+--light:#f7f7f7;
+--grey:#666;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Montserrat',sans-serif;
+color:#222;
+background:#fff;
+}
+
+.container{
+width:90%;
+max-width:1300px;
+margin:auto;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:white;
+z-index:1000;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+}
+
+.logo h1{
+font-size:2rem;
+font-weight:800;
+letter-spacing:2px;
+}
+
+.logo span{
+color:var(--red);
+}
+
+.logo p{
+letter-spacing:8px;
+font-size:.8rem;
+color:#666;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:#222;
+font-weight:600;
+}
+
+.quote-btn{
+background:var(--red);
+color:white;
+padding:14px 24px;
+text-decoration:none;
+font-weight:600;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url('hero-image.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+}
+
+.hero-content{
+max-width:700px;
+color:white;
+}
+
+.hero h2{
+font-size:4rem;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.3rem;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:16px 28px;
+text-decoration:none;
+margin-right:10px;
+font-weight:600;
+}
+
+.btn-red{
+background:var(--red);
+color:white;
+}
+
+.btn-outline{
+border:2px solid white;
+color:white;
+}
+
+.locations{
+background:#111;
+color:white;
+padding:18px;
+text-align:center;
+font-weight:600;
+}
+
+section{
+padding:90px 0;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:15px;
+font-size:2.5rem;
+}
+
+.section-sub{
+text-align:center;
+color:#666;
+margin-bottom:50px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:35px;
+box-shadow:0 5px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-bottom:20px;
+color:var(--red);
+}
+
+.card ul{
+padding-left:20px;
+line-height:2;
+}
+
+.grey{
+background:var(--light);
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+text-align:center;
+}
+
+.feature{
+padding:20px;
+}
+
+.landlord-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.landlord-item{
+background:white;
+padding:30px;
+box-shadow:0 5px 25px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.gallery-section iframe{
+min-height:700px;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.contact-box{
+background:white;
+padding:35px;
+box-shadow:0 5px 25px rgba(0,0,0,.08);
+}
+
+footer{
+background:#111;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+.float-call,
+.float-whatsapp{
+position:fixed;
+right:20px;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+color:white;
+font-size:24px;
+z-index:999;
+box-shadow:0 5px 20px rgba(0,0,0,.25);
+}
+
+.float-call{
+bottom:95px;
+background:var(--red);
+}
+
+.float-whatsapp{
+bottom:20px;
+background:#25D366;
+}
+
+@media(max-width:900px){
+
+nav{
+display:none;
+}
+
+.hero h2{
+font-size:2.5rem;
+}
+
+.hero p{
+font-size:1rem;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+<div class="container navbar">
+
+<div class="logo">
+<h1>ELECTRIC <span>AVENUE</span></h1>
+<p>NORTH WEST</p>
+</div>
+
+<nav>
+<ul>
+<li><a href="#services">Services</a></li>
+<li><a href="#landlords">Landlords</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<a href="#contact" class="quote-btn">REQUEST A QUOTE</a>
+
+</div>
+</header>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="hero-content">
+
+<h2>
+Domestic, Commercial &
+Industrial Electrical
+Contractors
+</h2>
+
+<p>
+Professional Electrical Installations,
+Inspection & Testing Across Lancashire &
+Merseyside.
+</p>
+
+<a href="#contact" class="btn btn-red">
+Request a Quote
+</a>
+
+<a href="tel:07972802172" class="btn btn-outline">
+Call Now
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="locations">
+Serving Lancashire • Merseyside • Ormskirk • Southport • Skelmersdale • Wigan • Liverpool • Preston
+</div>
+
+<section id="services">
+
+<div class="container">
+
+<h2 class="section-title">
+Reliable Electrical Solutions For Every Sector
+</h2>
+
+<p class="section-sub">
+Domestic, Commercial, Industrial & Inspection Services
+</p>
+
+<div class="services">
+
+<div class="card">
+<h3>Domestic Electrical</h3>
+<ul>
+<li>Consumer Unit Upgrades</li>
+<li>Rewires & Alterations</li>
+<li>Lighting Installations</li>
+<li>Additional Sockets</li>
+<li>EV Chargers</li>
+<li>Fault Finding</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Commercial Electrical</h3>
+<ul>
+<li>Office Fit Outs</li>
+<li>EICRs</li>
+<li>Emergency Lighting</li>
+<li>Maintenance</li>
+<li>Inspection & Testing</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Industrial Electrical</h3>
+<ul>
+<li>Three Phase Installations</li>
+<li>Distribution Systems</li>
+<li>Machinery Supplies</li>
+<li>Containment</li>
+<li>Testing & Commissioning</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Inspection & Testing</h3>
+<ul>
+<li>EICRs</li>
+<li>Landlord Certificates</li>
+<li>Periodic Inspections</li>
+<li>Emergency Lighting Testing</li>
+<li>Detailed Reports</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="grey">
+
+<div class="container">
+
+<h2 class="section-title">
+Why Choose Electric Avenue North West?
+</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>Reliable Service</h3>
+<p>Professional workmanship delivered on time.</p>
+</div>
+
+<div class="feature">
+<h3>Experienced</h3>
+<p>Domestic, commercial & industrial experience.</p>
+</div>
+
+<div class="feature">
+<h3>Testing Specialists</h3>
+<p>Inspection & testing experts.</p>
+</div>
+
+<div class="feature">
+<h3>Estate Agent Services</h3>
+<p>Fast turnaround and reliable certification.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="landlords">
+
+<div class="container">
+
+<h2 class="section-title">
+Landlords & Estate Agents
+</h2>
+
+<p class="section-sub">
+We make compliance simple.
+</p>
+
+<div class="landlord-grid">
+
+<div class="landlord-item">
+<h3>EICRs</h3>
+</div>
+
+<div class="landlord-item">
+<h3>Remedial Works</h3>
+</div>
+
+<div class="landlord-item">
+<h3>Certification</h3>
+</div>
+
+<div class="landlord-item">
+<h3>Fast Turnaround</h3>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery" class="gallery-section grey">
+
+<div class="container">
+
+<h2 class="section-title">
+Gallery
+</h2>
+
+<p class="section-sub">
+Follow our latest projects on Instagram.
+</p>
+
+<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+
+<iframe
+src="https://lightwidget.com/widgets/b6181e8916885413a87c2e943bc1abb2.html"
+scrolling="no"
+allowtransparency="true"
+class="lightwidget-widget"
+style="width:100%;border:0;overflow:hidden;">
+</iframe>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="container">
+
+<h2 class="section-title">
+Get In Touch
+</h2>
+
+<div class="contact-grid">
+
+<div class="contact-box">
+<h3>Call</h3>
+<p>07972 802172</p>
+</div>
+
+<div class="contact-box">
+<h3>Email</h3>
+<p>jake@ea-nw.co.uk</p>
+</div>
+
+<div class="contact-box">
+<h3>WhatsApp</h3>
+<p>Quick responses and quotations.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+Electric Avenue North West
+</p>
+
+<p>
+Domestic | Commercial | Industrial Electrical Contractors
+</p>
+
+</footer>
+
+<a href="tel:07972802172" class="float-call">
+📞
+</a>
+
+<a href="https://wa.me/447972802172" class="float-whatsapp">
+💬
+</a>
+
+</body>
+</html>
