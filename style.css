@@ -126,26 +126,23 @@ cursor:pointer;
 }
 
 .hero{
-min-height:100vh;
-display:flex;
-align-items:center;
-padding-top:120px;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    padding-top:120px;
 
-```
-background:
-linear-gradient(
-90deg,
-rgba(0,0,0,.75) 0%,
-rgba(0,0,0,.55) 45%,
-rgba(0,0,0,.15) 100%
-),
-url('/electricavenuenw/hero-image.jpg');
+    background:
+    linear-gradient(
+    90deg,
+    rgba(0,0,0,.75) 0%,
+    rgba(0,0,0,.55) 45%,
+    rgba(0,0,0,.15) 100%
+    ),
+    url('hero-image.jpg');
 
-background-size:cover;
-background-position:center center;
-background-repeat:no-repeat;
-```
-
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
 }
 
 .hero-content{
