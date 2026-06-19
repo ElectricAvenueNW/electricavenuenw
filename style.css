@@ -141,7 +141,7 @@ cursor:pointer;
     url('hero-image.jpg');
 
     background-size:cover;
-    background-position:center center;
+    background-position:center center 65%;
     background-repeat:no-repeat;
 }
 
