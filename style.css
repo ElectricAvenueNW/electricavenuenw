@@ -139,7 +139,7 @@ rgba(0,0,0,.75) 0%,
 rgba(0,0,0,.55) 45%,
 rgba(0,0,0,.15) 100%
 ),
-url('hero-image.jpg');
+url('./hero-image.jpg');
 
 background-size:cover;
 background-position:center center;
