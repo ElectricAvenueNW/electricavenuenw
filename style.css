@@ -146,8 +146,10 @@ cursor:pointer;
 }
 
 .hero-content{
-max-width:700px;
+max-width:650px;
 color:white;
+position:relative;
+z-index:2;
 }
 
 .hero h2{
