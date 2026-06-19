@@ -100,7 +100,7 @@ nav a:hover{
     color:var(--red);
 }
 
-..hero{
+.hero{
 min-height:100vh;
 display:flex;
 align-items:center;
@@ -118,9 +118,6 @@ url('hero-image.jpg');
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
-```
-
-}
 
 }
 
@@ -339,7 +336,7 @@ footer{
     bottom:20px;
 }
 
-@media(max-width:900px){
+@media(max-width:900px)
 
     nav{
         display:none;
