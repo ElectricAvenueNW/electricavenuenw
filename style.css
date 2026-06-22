@@ -382,11 +382,15 @@ bottom:20px;
         display:none;
     }
 
+   @media(max-width:900px){
+
     .hero{
         text-align:center;
-        padding-top:140px;
-       background-position:center 20%;
+        padding-top:80px;
+        background-position:center;
     }
+
+}
 
     .hero h2{
         font-size:3rem;
