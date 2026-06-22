@@ -413,6 +413,8 @@ bottom:20px;
 
 /* ===== Desktop Hero Layout ===== */
 
+@media (min-width: 992px){
+
 .hero{
     min-height:800px;
     align-items:center;
@@ -433,26 +435,26 @@ bottom:20px;
     background-repeat:no-repeat;
 }
 
-    .hero .container{
-        width:100%;
-    }
+.hero .container{
+    width:100%;
+}
 
-    .hero-content{
-        max-width:520px;
-        margin-left:0;
-    }
+.hero-content{
+    max-width:520px;
+    margin-left:0;
+}
 
-    .hero h2{
-        font-size:4rem;
-        line-height:1.05;
-        max-width:520px;
-        margin-bottom:25px;
-    }
+.hero h2{
+    font-size:4rem;
+    line-height:1.05;
+    max-width:520px;
+    margin-bottom:25px;
+}
 
-    .hero p{
-        font-size:1.2rem;
-        max-width:500px;
-        margin-bottom:35px;
-    }
+.hero p{
+    font-size:1.2rem;
+    max-width:500px;
+    margin-bottom:35px;
+}
 
 }
