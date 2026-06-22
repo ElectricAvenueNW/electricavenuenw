@@ -413,26 +413,25 @@ bottom:20px;
 
 /* ===== Desktop Hero Layout ===== */
 
-@media (min-width: 992px){
+.hero{
+    min-height:800px;
+    align-items:center;
+    padding-top:90px;
 
-    .hero{
-        min-height:800px;
-        align-items:center;
-        padding-top:90px;
+    background:
+    linear-gradient(
+    90deg,
+    rgba(0,0,0,.65) 0%,
+    rgba(0,0,0,.45) 30%,
+    rgba(0,0,0,.15) 60%,
+    rgba(0,0,0,.05) 100%
+    ),
+    url('hero-desktop.jpg');
 
-        background:
-        linear-gradient(
-        90deg,
-        rgba(0,0,0,.65) 0%,
-        rgba(0,0,0,.45) 35%,
-        rgba(0,0,0,.15) 65%,
-        rgba(0,0,0,.05) 100%
-        ),
-        url('hero-image.jpg');
-
-        background-size:cover;
-        background-position:center center;
-    }
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
 
     .hero .container{
         width:100%;
