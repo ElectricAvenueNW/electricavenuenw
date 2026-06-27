@@ -199,9 +199,15 @@ max-width:650px;
 
 .hero-buttons{
     display:flex;
-    gap:18px;
+    gap:16px;
     flex-wrap:wrap;
-    margin-bottom:35px;
+    justify-content:center;
+    margin:35px 0;
+}
+
+.hero-buttons .btn{
+    flex:1;
+    min-width:160px;
 }
 
 .btn{
@@ -472,6 +478,16 @@ bottom:20px;
     .hero p{
         font-size:1rem;
     }
+    
+    .hero-buttons{
+    flex-wrap:nowrap;
+}
+
+.hero-buttons .btn{
+    min-width:0;
+    padding:16px 20px;
+    font-size:1rem;
+}
 
     .gallery-feature img{
         height:400px;
