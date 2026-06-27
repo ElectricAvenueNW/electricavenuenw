@@ -957,13 +957,13 @@ nav a:hover::after{
 
     height:650px;
 
-    object-fit:cover;
+    object-fit:contain;
+
+    background:#f7f7f7;
 
     border-radius:16px;
 
     box-shadow:var(--shadow);
-
-    transition:var(--transition);
 
 }
 
