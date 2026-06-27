@@ -129,7 +129,10 @@ cursor:pointer;
     min-height:100vh;
     display:flex;
     align-items:center;
-    padding-top:120px;
+    justify-content:center;
+    padding-top:110px;
+    padding-bottom:40px;
+}
 
     background:
     linear-gradient(
@@ -147,10 +150,8 @@ cursor:pointer;
 }
 
 .hero-content{
-    max-width:620px;
-    color:#fff;
-    position:relative;
-    z-index:2;
+    max-width:90%;
+    margin:0 auto;
 }
 
 .hero-accent{
