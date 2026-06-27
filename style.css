@@ -132,7 +132,6 @@ cursor:pointer;
     justify-content:center;
     padding-top:110px;
     padding-bottom:40px;
-}
 
     background:
     linear-gradient(
@@ -147,11 +146,6 @@ cursor:pointer;
     background-size:cover;
     background-position:center center;
     background-repeat:no-repeat;
-}
-
-.hero-content{
-    max-width:90%;
-    margin:0 auto;
 }
 
 .hero-accent{
@@ -184,18 +178,6 @@ cursor:pointer;
     color:rgba(255,255,255,.92);
     margin-bottom:40px;
     max-width:470px;
-}
-
-.hero h2{
-font-size:4.5rem;
-line-height:1.05;
-margin-bottom:25px;
-}
-
-.hero p{
-font-size:1.3rem;
-margin-bottom:35px;
-max-width:650px;
 }
 
 .hero-buttons{
@@ -492,6 +474,11 @@ bottom:20px;
     min-width:0;
     padding:16px 20px;
     font-size:1rem;
+}
+    
+    .hero-content{
+    max-width:90%;
+    margin:0 auto;
 }
 
     .gallery-feature img{
