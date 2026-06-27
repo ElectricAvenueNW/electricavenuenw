@@ -291,6 +291,73 @@ nav a:hover::after{
 }
 
 /*==================================================
+  MOBILE NAVIGATION
+==================================================*/
+
+@media (max-width:900px){
+
+    .navbar{
+        position:relative;
+    }
+
+    .menu-toggle{
+        display:block;
+        margin-left:auto;
+        z-index:1001;
+    }
+
+    nav{
+
+        display:none;
+
+        position:absolute;
+
+        top:90px;
+
+        left:0;
+
+        width:100%;
+
+        background:#ffffff;
+
+        box-shadow:0 12px 30px rgba(0,0,0,.12);
+
+        border-top:1px solid #eeeeee;
+
+    }
+
+    nav.active{
+        display:block;
+    }
+
+    nav ul{
+        display:flex;
+        flex-direction:column;
+        gap:0;
+    }
+
+    nav li{
+        width:100%;
+        border-bottom:1px solid #eeeeee;
+    }
+
+    nav a{
+
+        display:block;
+
+        padding:18px 24px;
+
+    }
+
+    nav a::after{
+
+        display:none;
+
+    }
+
+}
+
+/*==================================================
   HERO
 ==================================================*/
 
