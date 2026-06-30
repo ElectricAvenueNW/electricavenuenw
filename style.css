@@ -1114,11 +1114,11 @@ GALLERY
 
     grid-template-columns:repeat(4,1fr);
 
-    grid-template-rows:repeat(2,1fr);
+    grid-template-rows:repeat(2,240px);
 
     gap:18px;
 
-    height:620px;
+    align-content:start;
 
 }
 
@@ -1126,14 +1126,11 @@ GALLERY
 
     width:100%;
 
-    height:100%;
+    height:240px;
+
+    display:block;
 
     object-fit:cover;
-
-    /*
-    Removes black bars from
-    the remaining images.
-    */
 
     object-position:center;
 
